@@ -1,0 +1,9 @@
+GET http://localhost:5000/api/dishes/by-ingredients?ingredientIds=6730d160e38e97e241fcfa48 HTTP/1.1
+# PUT http://localhost:5000/api/dishes/6730d538c62a2008f59506bc HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "name": "Tomato Sause 2.0",
+#     "ingredients": ["6730d160e38e97e241fcfa48"],
+#     "description": "Uncommon salad"
+# }

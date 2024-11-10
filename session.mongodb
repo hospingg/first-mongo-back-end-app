@@ -1,0 +1,23 @@
+
+
+db.createCollection('ingredients', {
+     validator:{
+        $jsonSchema:{
+            bsonType: "object",
+            required:['name', 'type'],
+            properties:{
+                name: {
+                    bsonType: "string",
+                    description: "ingredient's name must be string and is required"
+                },
+                type: {
+                    enum: ['vegetable', 'fruit', 'berry', 'spice', 'liquid', 'egg', 'flour'],
+                },
+                description: {
+                    bsonType: "string",
+                    description: "ingredient's description must be string"
+                }
+            }
+        }
+     }
+})

@@ -1,0 +1,9 @@
+GET http://localhost:5000/api/dishes/by-ingredients?ingredientIds=6730a868f7b4156fbc9fe6d5& HTTP/1.1
+
+# Content-Type: application/json
+
+# {
+#     "name": "tomato",
+#     "type": "vegetable",
+#     "description": "So fresh"
+# }

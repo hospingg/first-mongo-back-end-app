@@ -1,0 +1,32 @@
+# GET http://localhost:5000/api/dishes/6730d538c62a2008f59506bc HTTP/1.1
+
+
+GET http://localhost:5000/api/users
+# POST http://localhost:5000/api/users
+# Content-Type: application/json
+
+# {
+#     "username": "johndoe1234",
+#     "email": "johndoe1234@gmail.com",
+#     "password": "1234",
+#     "favorites": ["6730d1bce38e97e241fcfa4a", "6730d538c62a2008f59506bc"]
+# }
+
+# GET http://localhost:5000/api/users/6730f6509d02517fcf438246
+# PUT http://localhost:5000/api/users/6730f73f87e3a6dd3148aa0e
+# Content-Type: application/json
+
+# {
+#     "username": "johndoe12345",
+#     "email": "johndoe12345@gmail.com",
+#     "password": "12345",
+#     "favorites": ["6730d1bce38e97e241fcfa4a"]
+# }
+
+# DELETE  http://localhost:5000/api/users/6730f6509d02517fcf438246
+
+
+
+# GET http://localhost:5000/api/users/6730e152320bdbf23b633ed5/favorites
+# POST http://localhost:5000/api/users/6730e152320bdbf23b633ed5/favorites/6730d538c62a2008f59506bc
+# PUT http://localhost:5000/api/users/6730e152320bdbf23b633ed5/favorites/6730d538c62a2008f59506bc
